@@ -386,6 +386,10 @@ nav .right a span{
     font-size: 16px;
   }
 
+  /*Section4-Projetos Responsive*/
+  .projetos{
+    padding: 0 20px;
+  }
 
 }
 
