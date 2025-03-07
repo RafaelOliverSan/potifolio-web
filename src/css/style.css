@@ -392,7 +392,7 @@ nav .right a span{
 /*Section1-Hero Responsive*/
 @media (max-width:850px){
   .hero-section .text h2{
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 @media (max-width:740px){
