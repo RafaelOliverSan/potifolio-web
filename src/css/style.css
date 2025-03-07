@@ -45,7 +45,7 @@ nav .right a{
   color: var(--text-color);
   margin: 0 10px;
   position: relative;
-  padding-bottom: 4px;
+  padding-bottom: 5px;
 }
 
 nav .right .social::after{
@@ -177,6 +177,65 @@ nav .right a span{
 }
 
 /*Section 3:Testemunho*/
+.projetos{
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+.projetos-titulo{
+  text-align: center;
+  font-size: 35px;
+  color: var(--text-color);
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.projetos-caixa{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.caixa-texto-projetos{
+  padding: 1rem;
+}
+
+.projetos-card{
+  background: rgba(38, 37, 37, 0.1);
+  
+  border: solid 1px var(--text-color);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.projetos-card:hover{
+  box-shadow: 0 10px 20px rgba(0, 102, 255, 0.375);
+  transform: translateY(-5px) scale(1.03);
+}
+
+.projetos-imagem{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-projetos{
+  color: var(--text-color);
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.paragrafo-projetos{
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/*Section 4:Testemunho*/
 .testemunho-section{
   padding: 0 50px;
   margin-bottom: 100px;
