@@ -44,7 +44,25 @@ nav .left a{
 nav .right a{
   color: var(--text-color);
   margin: 0 10px;
+  position: relative;
+  padding-bottom: 4px;
 }
+
+nav .right .social::after{
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: var(--link-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  transition: 0.5s ease-in-out;
+}
+nav .right .social:hover::after{
+  width: 100%;
+}
+
 
 nav .right a:last-child{
   background-color: var(--text-color);
@@ -58,6 +76,8 @@ nav .right a:last-child{
 nav .right a span{
   margin-left: 5px;
 }
+
+
 
 
 
@@ -281,6 +301,10 @@ nav .right a span{
 
   nav .right a span{
     display: none;
+  }
+
+  nav .right .social::after{
+    background-color: transparent;
   }
 
   /*Section1-Hero Responsive*/
