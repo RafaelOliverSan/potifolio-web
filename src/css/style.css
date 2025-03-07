@@ -112,6 +112,8 @@ nav .right a span{
 .hero-section .text .links a:hover{
   border: 2px solid var(--text-color);
   color: var(--text-color);
+  box-shadow: 0 10px 20px rgba(23, 23, 23, 0.375);
+
 }
 .hero-section .headshot{
   display: flex;
@@ -176,7 +178,7 @@ nav .right a span{
   font-size: 11px;
 }
 
-/*Section 3:Testemunho*/
+/*Section 3: Projetos*/
 .projetos{
   padding: 0 50px;
   margin-bottom: 100px;
@@ -202,9 +204,9 @@ nav .right a span{
 }
 
 .projetos-card{
-  background: rgba(38, 37, 37, 0.1);
+  background: rgba(0, 102, 255, 0.029);
   
-  border: solid 1px var(--text-color);
+  border: solid 1px var(--link-color);
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -427,5 +429,10 @@ nav .right a span{
   }
   .contato-section .grupo{
     flex-direction: column;
+  }
+
+  /*Section4-Projetos Responsive*/
+  .projetos{
+    padding: 0 20px;
   }
 }
