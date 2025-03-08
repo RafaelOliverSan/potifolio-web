@@ -396,7 +396,7 @@ nav .right a span{
 /*Section1-Hero Responsive*/
 @media (max-width:850px){
   .hero-section .text h2{
-    font-size: 28px;
+    font-size: 30px;
   }
 }
 @media (max-width:740px){
@@ -406,7 +406,7 @@ nav .right a span{
 
   .hero-section .links{
     display: flex;
-    justify-content: center;
+    
   }
 
   .hero-section .headshot img{
@@ -420,7 +420,7 @@ nav .right a span{
 
   .testemunho-section h2{
     text-align: center;
-  }
+  }  
 
   .testemunho-section .grupo{
     flex-direction: column;
@@ -438,5 +438,31 @@ nav .right a span{
   /*Section4-Projetos Responsive*/
   .projetos{
     padding: 0 20px;
+  }
+}
+
+@media (max-width:460px){
+  nav .right a{
+    font-size: 16px;
+    
+  }
+
+  nav .left a{
+    font-size: 16px;
+  }
+
+  .hero-section{
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .hero-section .text h2{
+    font-size: 30px;
+
+  }
+
+  .hero-section .links{
+    display: flex;
+    flex-direction: column;
   }
 }
