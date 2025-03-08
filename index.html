@@ -192,7 +192,7 @@
       </div>
 
       <div class="text">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum minus dolor amet, voluptatum vero quos nulla sit placeat eos aut necessitatibus, nobis laudantium iure quis mollitia fuga rem cupiditate doloribus voluptatibus. Earum cumque quidem debitis tenetur rerum. Voluptas, porro neque.
+        "Trabalhar com Rafael foi uma experiência incrível! Desde o início, ele demonstrou um profundo conhecimento em desenvolvimento front-end, entregando um site moderno, responsivo e extremamente rápido. Sua atenção aos detalhes e preocupação com a experiência do usuário fizeram toda a diferença no resultado final. Além disso, a comunicação foi sempre clara e eficiente, tornando o processo muito tranquilo. Sem dúvidas, recomendo seu trabalho para qualquer pessoa que precise de um desenvolvedor front-end de alto nível!"
       </div>
     </div>
 
@@ -207,12 +207,13 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nisi eligendi natus blanditiis facere eveniet quas iusto, accusantium explicabo doloremque ipsa excepturi unde molestiae mollitia, sint doloribus deserunt impedit est modi distinctio. Vel animi numquam, voluptatem assumenda incidunt doloremque perspiciatis nisi explicabo, obcaecati sint delectus ratione vero sapiente, consequuntur distinctio!
         </div>
 
-        <form>
-          <label for="name">Nome</label>
-          <input type="text" id="name" placeholder="Digite seu nome" required>
+        <form id="contato" class="formulario-contato" onsubmit="enviarWhatsApp(event)">
 
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Digite seu email" required >
+          <label for="name">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+          <!--<label for="email">Email</label>
+          <input type="email" id="email" placeholder="Digite seu email" required >-->
 
           <label for="mensagem">Mensagem</label>
           <textarea  id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
@@ -235,7 +236,7 @@
 
 
 
-
+      <script src="src/JavaScript/contato.js"></script>
 </body>
 
 </html>
