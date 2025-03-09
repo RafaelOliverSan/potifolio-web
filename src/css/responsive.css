@@ -1,0 +1,131 @@
+/*NavBar Responsive*/
+@media (max-width:745px){
+  nav{
+    padding: 0 20px;
+    
+  }
+
+  nav .right a{
+    font-size: 22px;
+    
+  }
+
+  nav .right a:last-child{
+    color: var(--text-color);
+    background-color: transparent;
+    padding: 0;
+    
+  }
+
+  nav .right a:last-child:hover{
+    border: none;
+  }
+  
+
+
+  nav .right a span{
+    display: none;
+  }
+
+  nav .right .social::after{
+    background-color: transparent;
+  }
+
+  /*Section1-Hero Responsive*/
+  .hero-section{
+    padding: 0 20px;
+  }
+
+  .hero-section .text h2{
+    font-size: 30px;
+  }
+
+  /*Section2-Skills Responsive*/
+  .skills-section{
+    padding: 0 20px;
+  }
+
+  .skills-section .cells .cell span{
+    font-size: 16px;
+  }
+
+  /*Section4-Projetos Responsive*/
+  .projetos{
+    padding: 0 20px;
+  }
+
+}
+
+/*Section1-Hero Responsive*/
+@media (max-width:850px){
+  .hero-section .text h2{
+    font-size: 30px;
+  }
+}
+@media (max-width:740px){
+  .hero-section{
+    flex-direction: column-reverse;
+  }
+
+  .hero-section .links{
+    display: flex;
+    
+  }
+
+  .hero-section .headshot img{
+    width: 250px;
+  }
+
+  /*Section3-Hero Testemunho*/
+  .testemunho-section{
+    padding: 0 20px;
+  }
+
+  .testemunho-section h2{
+    text-align: center;
+  }  
+
+  .testemunho-section .grupo{
+    flex-direction: column;
+  }
+
+  /*Section4-Contato Responsive*/
+  .contato-section{
+    padding: 0 20px;
+    
+  }
+  .contato-section .grupo{
+    flex-direction: column;
+  }
+
+  /*Section4-Projetos Responsive*/
+  .projetos{
+    padding: 0 20px;
+  }
+}
+
+@media (max-width:460px){
+  nav .right a{
+    font-size: 16px;
+    
+  }
+
+  nav .left a{
+    font-size: 16px;
+  }
+
+  .hero-section{
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .hero-section .text h2{
+    font-size: 30px;
+
+  }
+
+  .hero-section .links{
+    display: flex;
+    flex-direction: column;
+  }
+}
