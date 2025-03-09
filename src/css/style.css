@@ -17,7 +17,7 @@ html{
 body{
   font-family: 'Poppins', sans-serif;
   background-color: var(--background-color);
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
 } 
 
@@ -30,7 +30,7 @@ a{
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 80px;
   height: 80px;
   align-items: center;
 }
@@ -92,7 +92,7 @@ nav .right a span{
 .hero-section{
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 80px;
   margin: 50px 0;
   margin-bottom: 80px;
   align-items: center;
@@ -140,7 +140,7 @@ nav .right a span{
 
 /*Section 2:Skil*/
 .skills-section{
-  padding: 0 50px;
+  padding: 0 80px;
   margin-bottom: 100px;
   
 }
@@ -186,7 +186,7 @@ nav .right a span{
 
 /*Section 3: Projetos*/
 .projetos{
-  padding: 0 50px;
+  padding: 0 80px;
   margin-bottom: 100px;
   
 }
@@ -207,7 +207,7 @@ nav .right a span{
 }
 
 .caixa-texto-projetos{
-  padding: 1rem;
+  padding: 16px;
 }
 
 .projetos-card{
@@ -234,19 +234,19 @@ nav .right a span{
 .info-projetos{
   color: var(--text-color);
   margin-bottom: 5px;
-  font-size: 1.2rem;
+  font-size: 18px;
   font-weight: 300;
 }
 
 .paragrafo-projetos{
   color: var(--text-color);
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 200;
 }
 
 /*Section 4:Testemunho*/
 .testemunho-section{
-  padding: 0 50px;
+  padding: 0 80px;
   margin-bottom: 100px;
 }
 .testemunho-section h2{
@@ -289,7 +289,7 @@ nav .right a span{
 
 /*Section4-Contato*/
 .contato-section{
-  padding: 0 50px;
+  padding: 0 80px;
   margin-bottom: 100px;
 }
 
@@ -343,6 +343,53 @@ nav .right a span{
 }
 .contato-section .grupo form button:hover{
   filter: brightness(.9);
+}
+
+/*Section 5:Roda Pé*/
+
+footer {
+  width: 100%;
+  background-color:var(--text-color );
+  text-align: center;
+  padding: 30px 0;
+  
+}
+
+footer .top-footer button {
+  width: 50px;
+  height: 50px;
+  border: solid 1px var(--background-color);
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--background-color);
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+footer .top-footer button:hover {
+  background-color:var(--background-color);
+  color:var(--text-color);
+}
+
+footer .middle-footer {
+  margin: 10px 0;
+}
+
+footer .middle-footer a {
+  color: var(--background-color);
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+footer .bottom-footer {
+  border-top: solid 1px var(--background-color);
+}
+
+footer .bottom-footer p {
+  color: var(--background-color);
+  margin-top: 20px;
 }
 
 
